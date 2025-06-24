@@ -80,9 +80,6 @@ export default function ContactPage() {
                     <p className="text-lg text-muted-foreground">Sâmbătă: 09:00 - 13:00</p>
                 </div>
             </div>
-            <div className="w-full h-64 md:h-full bg-muted rounded-lg flex items-center justify-center">
-                <p className="text-muted-foreground">Hartă interactivă (Google Maps)</p>
-            </div>
           </div>
           <div className="space-y-8">
              <h2 className="text-3xl font-bold font-headline">Trimite-ne un Mesaj</h2>

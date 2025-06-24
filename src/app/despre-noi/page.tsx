@@ -22,7 +22,7 @@ export default function AboutPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="https://placehold.co/600x450.png"
+                src="/pasiunea-pentru-lemn.jpg"
                 alt="Echipa David Construct lucreaza la o casa din lemn"
                 data-ai-hint="wood house construction"
                 width={600}

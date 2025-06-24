@@ -12,7 +12,7 @@ export default function Home() {
         <section className="relative w-full py-24 md:py-32 lg:py-48">
           <div className="absolute inset-0 bg-black/60 z-10" />
           <Image
-            src="https://placehold.co/1920x1080.png"
+            src="/cabane-lemn-hero.jpg"
             alt="Hero Background"
             priority
             data-ai-hint="cozy wooden house interior"
@@ -132,7 +132,7 @@ export default function Home() {
               </ul>
             </div>
             <Image
-              src="https://placehold.co/600x600.png"
+              src="/de-ce-david-construct.jpg"
               alt="Echipa la lucru"
               data-ai-hint="construction team wood"
               width={600}

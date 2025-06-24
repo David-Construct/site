@@ -63,7 +63,7 @@ export default function ServicesPage() {
                   </Button>
                 </div>
                 <Image
-                  src="https://placehold.co/600x400.png"
+                  src="/anexa1.jpg"
                   alt="Constructii din lemn diverse"
                   data-ai-hint="wooden gazebo terrace"
                   width={600}

@@ -26,7 +26,7 @@ export const services: Service[] = [
     title: "Case din Lemn (Framing & Modular)",
     description: "Soluții moderne și eficiente pentru locuințe durabile din lemn, complet personalizabile.",
     longDescription: "Casele pe structură de lemn, fie în sistem framing sau modular, reprezintă o soluție modernă, ecologică și eficientă energetic. Construite cu precizie, acestea garantează o calitate superioară și un timp redus de execuție. De la design minimalist la complex, adaptăm fiecare proiect nevoilor tale, folosind lemn de cea mai bună calitate.",
-    image: "https://placehold.co/600x400.png",
+    image: "/case-din-lemn.jpg",
     hint: "wooden frame house"
   },
   {
@@ -34,7 +34,7 @@ export const services: Service[] = [
     title: "Căsuțe A-frame",
     description: "Design iconic și fermecător pentru o viață aproape de natură.",
     longDescription: "Iconice și pline de farmec, căsuțele A-frame sunt alegerea perfectă pentru cei ce caută o locuință de vacanță sau o reședință permanentă cu un caracter distinct. Designul lor inteligent maximizează spațiul și lumina naturală, oferind o integrare perfectă în peisaje montane sau împădurite, fiind construite integral din lemn.",
-    image: "https://placehold.co/600x400.png",
+    image: "/casute-a-frame.jpg",
     hint: "a-frame cabin"
   },
   {
@@ -42,7 +42,7 @@ export const services: Service[] = [
     title: "Anexe și Structuri Diverse din Lemn",
     description: "De la cabane și foișoare, la terase și garduri durabile și estetice.",
     longDescription: "Lemnul este un material nobil, versatil și durabil. Realizăm o varietate de construcții anexe din lemn, inclusiv cabane rustice, foișoare pentru relaxare, terase funcționale și garduri estetice. Folosim lemn tratat de cea mai bună calitate pentru a asigura longevitatea și frumusețea proiectului tău.",
-    image: "https://placehold.co/600x400.png",
+    image: "/foisor.jpg",
     hint: "wood gazebo"
   },
 ];
@@ -51,38 +51,44 @@ export const portfolio = [
     {
       title: "Casă din Lemn, Brașov",
       category: "Case din Lemn",
-      image: "https://placehold.co/400x300.png",
+      image: "/casa-lemn-brasov.jpg",
       hint: "modern wooden house"
     },
     {
       title: "Refugiu A-frame, Apuseni",
       category: "Căsuțe A-frame",
-      image: "https://placehold.co/400x300.png",
+      image: "/a-frame-apuseni.jpg",
       hint: "a-frame forest"
     },
     {
       title: "Cabana din Lemn, Suceava",
       category: "Construcții din Lemn",
-      image: "https://placehold.co/400x300.png",
+      image: "/cabana-lemn-suceava.jpg",
       hint: "wooden cabin"
     },
     {
       title: "Ansamblu Case din Lemn, Cluj",
       category: "Case din Lemn",
-      image: "https://placehold.co/400x300.png",
+      image: "/ansamblu.jpg",
       hint: "wooden house complex"
     },
     {
       title: "Foișor Grădină, București",
       category: "Construcții din Lemn",
-      image: "https://placehold.co/400x300.png",
+      image: "/foisor-gradina.jpg",
       hint: "garden gazebo"
     },
     {
       title: "Terasă Extinsă, Constanța",
       category: "Construcții din Lemn",
-      image: "https://placehold.co/400x300.png",
+      image: "/terasa-extinsa.jpg",
       hint: "wood terrace"
+    },
+    {
+      title: "Casă din Lemn, Brașov (Imagine Locală)",
+      category: "Case din Lemn",
+      image: "/casa-lemn-brasov.jpg",
+      hint: "modern wooden house"
     },
 ];
 
