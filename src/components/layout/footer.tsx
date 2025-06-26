@@ -36,7 +36,7 @@ export function Footer() {
                     </p>
                     <p className="flex items-center gap-2">
                         <Mail className="h-4 w-4" />
-                        <a href="mailto:contact@davidconstruct.ro" className="hover:text-primary transition-colors">contact@davidconstruct.ro</a>
+                        <a href="mailto:contact.davidconstruct@gmail.com" className="hover:text-primary transition-colors">contact.davidconstruct@gmail.com</a>
                     </p>
                     <p className="flex items-center gap-2">
                         <MapPin className="h-4 w-4" />
