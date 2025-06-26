@@ -67,7 +67,7 @@ export default function ContactPage() {
                     </p>
                      <p className="flex items-center gap-3">
                         <Mail className="h-6 w-6 text-primary" />
-                        <a href="mailto:contact@davidconstruct.ro" className="hover:text-primary transition-colors">contact@davidconstruct.ro</a>
+                        <a href="mailto:contact.davidconstruct@gmail.com" className="hover:text-primary transition-colors">contact.davidconstruct@gmail.com</a>
                     </p>
                     <p className="flex items-center gap-3">
                         <MapPin className="h-6 w-6 text-primary" />
@@ -83,63 +83,25 @@ export default function ContactPage() {
           </div>
           <div className="space-y-8">
              <h2 className="text-3xl font-bold font-headline">Trimite-ne un Mesaj</h2>
-            <Form {...form}>
-              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
-                <FormField
-                  control={form.control}
-                  name="name"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Nume și Prenume</FormLabel>
-                      <FormControl>
-                        <Input placeholder="Ion Popescu" {...field} />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                <FormField
-                  control={form.control}
-                  name="email"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Adresă de Email</FormLabel>
-                      <FormControl>
-                        <Input placeholder="exemplu@email.com" {...field} />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                 <FormField
-                  control={form.control}
-                  name="phone"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Număr de Telefon</FormLabel>
-                      <FormControl>
-                        <Input placeholder="0724 084 555" {...field} />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                <FormField
-                  control={form.control}
-                  name="message"
-                  render={({ field }) => (
-                    <FormItem>
-                      <FormLabel>Mesajul Dvs.</FormLabel>
-                      <FormControl>
-                        <Textarea placeholder="Aș dori o ofertă pentru o casă din lemn..." className="min-h-[120px]" {...field} />
-                      </FormControl>
-                      <FormMessage />
-                    </FormItem>
-                  )}
-                />
-                <Button type="submit" size="lg">Trimite Mesajul</Button>
-              </form>
-            </Form>
+            <form action="https://formsubmit.co/contact.davidconstruct@gmail.com" method="POST" className="space-y-4">
+              <div>
+                <label className="block font-medium mb-1" htmlFor="name">Nume și Prenume</label>
+                <input type="text" id="name" name="name" placeholder="Ion Popescu" required minLength={2} className="w-full px-3 py-2 border rounded-md" />
+              </div>
+              <div>
+                <label className="block font-medium mb-1" htmlFor="email">Adresă de Email</label>
+                <input type="email" id="email" name="email" placeholder="exemplu@email.com" required className="w-full px-3 py-2 border rounded-md" />
+              </div>
+              <div>
+                <label className="block font-medium mb-1" htmlFor="phone">Număr de Telefon</label>
+                <input type="text" id="phone" name="phone" placeholder="0724 084 555" required minLength={10} className="w-full px-3 py-2 border rounded-md" />
+              </div>
+              <div>
+                <label className="block font-medium mb-1" htmlFor="message">Mesajul Dvs.</label>
+                <textarea id="message" name="message" placeholder="Aș dori o ofertă pentru o casă din lemn..." required minLength={10} maxLength={500} className="w-full px-3 py-2 border rounded-md min-h-[120px]" />
+              </div>
+              <Button type="submit" size="lg">Trimite Mesajul</Button>
+            </form>
           </div>
         </div>
       </section>
