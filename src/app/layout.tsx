@@ -8,6 +8,37 @@ import { Toaster } from "@/components/ui/toaster";
 export const metadata: Metadata = {
   title: "David Construct | Specialiști în Construcții din Lemn",
   description: "David Construct este specialistul tău în construcții din lemn. Realizăm case, cabane A-frame, foișoare și alte structuri din lemn de calitate superioară.",
+  keywords: "case din lemn, cabane A-frame, foișoare, construcții din lemn, case pe structură de lemn, anexe din lemn, terase din lemn",
+  authors: [{ name: "David Construct" }],
+  creator: "David Construct",
+  publisher: "David Construct",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'ro_RO',
+    url: 'https://www.davidconstruct.ro',
+    title: 'David Construct | Specialiști în Construcții din Lemn',
+    description: 'David Construct este specialistul tău în construcții din lemn. Realizăm case, cabane A-frame, foișoare și alte structuri din lemn de calitate superioară.',
+    siteName: 'David Construct',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'David Construct | Specialiști în Construcții din Lemn',
+    description: 'David Construct este specialistul tău în construcții din lemn. Realizăm case, cabane A-frame, foișoare și alte structuri din lemn de calitate superioară.',
+  },
+  verification: {
+    google: 'your-google-verification-code', // Înlocuiește cu codul tău de verificare Google
+  },
 };
 
 export default function RootLayout({
