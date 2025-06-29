@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description: 'David Construct este specialistul tău în construcții din lemn. Realizăm case, cabane A-frame, foișoare și alte structuri din lemn de calitate superioară.',
   },
   verification: {
-    google: 'your-google-verification-code', // Înlocuiește cu codul tău de verificare Google
+    google: 'google-site-verification=Z-ChwzBNQIjHi69tL8jd4dc5eP-W9cYapM_Z4J7F_o4', // Înlocuiește cu codul tău de verificare Google
   },
 };
 
