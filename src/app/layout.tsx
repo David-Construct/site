@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { Toaster } from "@/components/ui/toaster";
+import { MetadataRoute } from 'next'
 
 export const metadata: Metadata = {
   title: "David Construct | Specialiști în Construcții din Lemn",
@@ -67,4 +68,8 @@ export default function RootLayout({
       </body>
     </html>
   );
+}
+
+export function sitemap(): MetadataRoute.Sitemap {
+  // ... return array cu url-urile ...
 }
