@@ -100,8 +100,8 @@ export default function ContactPage() {
                 <label className="block font-medium mb-1" htmlFor="message">Mesajul Dvs.</label>
                 <textarea id="message" name="message" placeholder="Aș dori o ofertă pentru o casă din lemn..." required minLength={10} maxLength={500} className="w-full px-3 py-2 border rounded-md min-h-[120px]" />
               </div>
-              <Button type="submit" size="lg">Trimite Mesajul</Button>
-            </form>
+                <Button type="submit" size="lg">Trimite Mesajul</Button>
+              </form>
           </div>
         </div>
       </section>

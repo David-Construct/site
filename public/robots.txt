@@ -3,6 +3,6 @@ Allow: /
 
 # Sitemap
 Sitemap: https://www.davidconstruct.ro/sitemap.xml
-
+ 
 # Crawl-delay
 Crawl-delay: 1 
