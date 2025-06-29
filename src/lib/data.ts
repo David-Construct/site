@@ -130,6 +130,21 @@ export const testimonials = [
         quote: "Am apelat la David Construct pentru realizarea unei terase din lemn și suntem mai mult decât mulțumiți. Lucrarea este impecabilă, iar echipa a fost extrem de serioasă și eficientă. Vom reveni cu siguranță pentru proiecte viitoare.",
         author: "Mihai G.",
         project: "Terasă din Lemn, Constanța"
+    },
+    {
+        quote: "Profesionalismul și dedicarea echipei David Construct sunt remarcabile. Ne-au construit un foișor superb în grădină, exact cum ne-am dorit. Calitatea lemnului și atenția la detalii sunt de neegalat.",
+        author: "Cristina D.",
+        project: "Foișor Grădină, București"
+    },
+    {
+        quote: "Am ales David Construct pentru casa noastră de vacanță și a fost cea mai bună decizie. Procesul a fost transparent, comunicarea excelentă, iar rezultatul final depășește așteptările. O echipă de încredere!",
+        author: "Adrian V.",
+        project: "Casă de Vacanță, Prahova"
+    },
+    {
+        quote: "Recomand cu căldură David Construct pentru orice proiect din lemn. Ne-au ajutat cu un gard solid și estetic pentru proprietatea noastră. Lucrarea a fost finalizată rapid și eficient.",
+        author: "Elena S.",
+        project: "Gard din Lemn, Ilfov"
     }
 ];
 
